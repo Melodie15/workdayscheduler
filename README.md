@@ -42,7 +42,7 @@ Open the app and the current date and time is displayed. Input events in the tim
 
 Distributed under the MIT License. See LICENSE for more information.
 
-[Back To The Top](#code-quiz)
+[Back To The Top](#workday-scheduler)
 
 ---
 
