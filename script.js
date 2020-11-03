@@ -20,3 +20,12 @@ function confirmDate() {
     }
 }
 confirmDate();
+
+//Save input
+function saveInput(e) {
+    var dataInput = $(this).siblings("input").val().trim();
+    var timeId = $(this).siblings("input").attr("id");
+
+    localStorage.setItem(timeId, dataInput);
+}
+$(".saveBtn").on("click", saveInput)
