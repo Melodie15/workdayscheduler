@@ -29,3 +29,13 @@ function saveInput(e) {
     localStorage.setItem(timeId, dataInput);
 }
 $(".saveBtn").on("click", saveInput)
+
+
+//Delete input by clicking trash
+function deleteInput(e) {
+    var timeId = $(this).siblings("input").attr("id");
+
+    localStorage.removeItem(timeId);
+    $(this).siblings("input[type='text']").val(" ");
+}
+$(".trashBtn").on("click", deleteInput)
