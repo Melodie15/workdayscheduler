@@ -22,6 +22,27 @@ textarea{
   }
   .row {
     white-space: pre-wrap;
-    height: 60px;
+    height: 55px;
     border-top: 1px solid white;
     font-weight: bolder;
+  }
+  .saveBtn {
+      font-size: large;
+      background-color: violet;
+      color: white;
+  }
+  #today {
+      color: rgb(238, 48, 238);
+  }
+  .past {
+      background-color: rgb(255, 187, 0);
+
+  }
+  .present {
+      background-color:rgb(127, 224, 127);
+
+  }
+  .future {
+      background-color: rgb(97, 199, 240);
+
+  }
