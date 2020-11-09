@@ -49,5 +49,5 @@ Distributed under the MIT License. See LICENSE for more information.
 ## Author Info
 
 Fatim Robbins
-fmsis@hotmail.com
+fmsis@hotmail.com <br/> 
 Link :  https://melodie15.github.io/workdayscheduler/ 
